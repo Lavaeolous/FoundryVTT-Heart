@@ -1,0 +1,92 @@
+{
+    "templateVersion": 2,
+    "authors": [
+        {
+            "name": "hitcherland",
+            "discord": "hitcherland"
+        },
+        {
+            "name": "Primer",
+            "discord": ".primer_"
+        }
+    ],
+    "socket": false,
+    "version": "0.9.5-primer",
+    "id": "heart",
+    "title": "Heart - The City Beneath",
+    "description": "A custom fork of the Heart system for FoundryVTT. Only for use in v12. Purchase the books at https://rowanrookanddecard.com/product/heart-the-city-beneath-rpg/",
+    "compatibility": {
+        "minimum": "12",
+        "verified": "12"
+    },
+    "esmodules": [
+        "heart.js"
+    ],
+    "url": "https://github.com/Lavaeolous/FoundryVTT-Heart",
+    "manifest": "https://github.com/Lavaeolous/FoundryVTT-Heart/releases/latest/download/system.json",
+    "download": "https://github.com/Lavaeolous/FoundryVTT-Heart/releases/download/0.9.5-primer/heart.zip",
+    "packs": [
+        {
+            "name": "macros",
+            "label": "Useful Heart Macros",
+            "system": "heart",
+            "path": "./packs/macros.db",
+            "type": "Macro",
+            "entity": "Macro"
+        },
+        {
+            "name": "tags",
+            "label": "Tags",
+            "system": "heart",
+            "path": "./packs/tags.db",
+            "type": "Item",
+            "entity": "Item"
+        },
+        {
+            "name": "fallouts",
+            "label": "Fallouts",
+            "system": "heart",
+            "path": "./packs/fallouts.db",
+            "type": "Item",
+            "entity": "Item"
+        },
+        {
+            "name": "classes",
+            "label": "Classes",
+            "system": "heart",
+            "path": "./packs/classes.db",
+            "type": "Item",
+            "entity": "Item"
+        },
+        {
+            "name": "callings",
+            "label": "Callings",
+            "system": "heart",
+            "path": "./packs/callings.db",
+            "type": "Item",
+            "entity": "Item"
+        }
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json"
+        },
+        {
+            "lang": "es",
+            "name": "Español",
+            "path": "lang/es.json"
+        },
+        {
+            "lang": "it",
+            "name": "Italiano",
+            "path": "lang/it.json"
+        },
+        {
+            "lang": "pt",
+            "name": "Português",
+            "path": "lang/pt.json"
+        }
+    ]
+}
